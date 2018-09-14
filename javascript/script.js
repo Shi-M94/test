@@ -1,0 +1,108 @@
+//問1
+document.write("ココカラ-------");
+document.write("<br>");
+for(a=0;a<5;a++){
+    document.write("★");
+}
+document.write("<br>");
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+//問2
+document.write("ココカラ-------");
+document.write("<br>");
+for(b=0;b<2;b++){
+    for(c=0;c<3;c++){
+    document.write("★");
+    }
+    document.write("<br>");
+}
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+//問3
+document.write("ココカラ-------");
+document.write("<br>");
+for(d=0;d<2;d++){
+    for(e=0;e<5;e++){
+    document.write("☆");
+    }
+    document.write("<br>");
+}
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+//問4
+document.write("ココカラ-------");
+document.write("<br>");
+for(f=0;f<4;f++){
+    for(g=0;g<5;g++){
+    document.write("★");
+    }
+    document.write("<br>");
+}
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+//問5
+document.write("ココカラ-------");
+document.write("<br>");
+for(h=0;h<4;h++){
+    for(i=0;i<3;i++){
+    document.write("★");
+    }
+    document.write("<br>");
+}
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+//問6
+document.write("ココカラ-------");
+document.write("<br>");
+for(j=0;j<3;j++){
+    for(k=1;k<3;k++){
+        if(k%2==0){
+            document.write("☆");
+        }
+        document.write("★");
+    }
+    document.write("<br>");
+}
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+//問7
+document.write("ココカラ-------");
+document.write("<br>");
+for(l=0;l<4;l++){
+    for(m=1;m<6;m++){
+        if(m%2==0){
+            document.write("☆");
+        }else if(m%2==1){
+           document.write("★"); 
+        }
+    }
+    document.write("<br>");
+}
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+//問8
+document.write("ココカラ-------");
+document.write("<br>");
+for(n=1;n<=5;n++){
+    for(o=0;o<n;o++){
+    document.write("★");
+    }
+    document.write("<br>");
+}
+document.write("-------ココマデ");
+document.write("<br>");
+document.write("<br>");
+
+
+
+
+
+
+
