@@ -1,0 +1,21 @@
+
+public class Test {
+
+	public static void main(String[] args){
+
+		Person status1=new Person();
+		Person status2=new Person();
+
+		status1.name="木村次郎";
+		status1.age=18;
+		status2.name="鈴木花子";
+		status2.age=16;
+
+		System.out.println(status1);
+		System.out.println(status2);
+
+
+
+
+	}
+}

@@ -1,0 +1,22 @@
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		String name ="ingenium";
+
+
+		switch (name){
+			case "deku":System.out.println("izuku");
+			break;
+			case "short":System.out.println("syouto");
+			break;
+			case "ingenium":System.out.println("tenya");
+			break;
+		}
+
+
+
+	}
+
+}

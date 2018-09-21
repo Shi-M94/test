@@ -1,0 +1,19 @@
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		int a=211;
+
+		if(a>=100){
+			if(a<200){
+				System.out.println("A");
+			}else{
+				System.out.println("B");
+			}
+		}
+
+
+	}
+
+}
