@@ -1,0 +1,13 @@
+-CSS,script,-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charaset="UTF-8">
+<title>CSS‚ÌŠî‘b</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

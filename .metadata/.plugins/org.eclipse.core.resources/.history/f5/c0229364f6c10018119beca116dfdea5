@@ -1,0 +1,40 @@
+package swinggui;
+
+import javax.swing.JFrame;
+import java.awt.*;
+import javax.swing.*;
+
+public class ButtonAction1 extends JFrame {
+	private static final long serialVersionUID = 1L;
+
+	JPanel contentPane =new JPanel();
+	JButton activeButton,noActionButton;
+	JTextArea messages;
+
+	//フレームのビルド
+	public ButtonAction1(){
+		this.setBounds(0,0,400,300);
+		this.setTitle("ボタンでクリック");
+
+		contentPane.setLayout(new FlowLayout());
+		contentPane.setBackground(Color.white);
+
+		activeButton =new JButton("記入する");
+		contentPane.add(activeButton);
+
+		noActionButton =new JButton("何もしない");
+		contentPane.add(noActionButton);
+
+		messages =new JTextArea("メッセージ開始\n",12,80);
+		messages.setLineWrap(true);
+		messages.setBackground(Color.orange);
+		contentPane.add(messages);
+
+		this.setContentPane(contentPane);
+		this.setVisible(true);
+	}
+
+
+
+
+}

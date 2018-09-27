@@ -1,0 +1,39 @@
+package swinggui;
+
+import javax.swing.*;
+
+public class UseComponentsNoLayout extends JFrame {
+	private static final long serialVersionUID = 1L;
+
+	JPanel panel = new JPanel();
+	JButton button1 = new JButton( "BUTTON" );
+	JCheckBox checkbox1 = new JCheckBox();
+	JTextArea textarea1 = new JTextArea();
+	JComboBox combobox1 = new JComboBox();
+
+	public UseComponentsNoLayout() {
+		this.setBounds( 50, 100, 400, 250 );
+		this.panel.setLayout( null );
+
+		this.button1.setBounds( 30, 10, 200, 20 );
+		this.button1.setText( "ボタン" );
+		this.panel.add( this.button1 );
+
+		this.checkbox1.setBounds( 30, 40, 200, 20 );
+		this.checkbox1.setText( "チェックボックス" );
+		this.panel.add( this.checkbox1 );
+
+		this.textarea1.setBounds( 30, 70, 300, 20 );
+		this.textarea1.setText( "テキストエリア\nTextArea" );		//\マークが間にあることに注意
+		this.panel.add( this.textarea1 );
+
+		this.combobox1.setBounds( 30, 120, 200, 20 );
+		this.combobox1.addItem( "りんご" );
+		this.combobox1.addItem( "みかん" );
+		this.combobox1.addItem( "なし" );
+		this.panel.add( this.combobox1 );
+
+		this.setContentPane( this.panel );
+		this.setVisible( true );
+	}
+}

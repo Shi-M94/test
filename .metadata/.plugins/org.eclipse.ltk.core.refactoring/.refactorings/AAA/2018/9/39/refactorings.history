@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 5 elements from プロジェクト &apos;AAA&apos;&#x0D;&#x0A;- 元のプロジェクト: &apos;AAA&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     TetrisBlock.java&#x0D;&#x0A;     TetrisField.java&#x0D;&#x0A;     TetrisGUI.java&#x0D;&#x0A;     TetrisKey.java&#x0D;&#x0A;     TetrisProc.java" description="要素の削除" element1="TetrisField.java" element2="TetrisGUI.java" element3="TetrisKey.java" element4="TetrisBlock.java" element5="TetrisProc.java" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="5" stamp="1538015534952" subPackages="false" version="1.0"/>
+</session>
