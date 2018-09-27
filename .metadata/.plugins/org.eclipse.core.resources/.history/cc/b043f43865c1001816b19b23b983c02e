@@ -1,0 +1,13 @@
+package swinggui;
+
+import javax.swing.JFrame;
+
+public class Starter extends JFrame {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+		new UseComponents();
+
+	}
+
+}

@@ -1,0 +1,40 @@
+package swinggui;
+
+//import java.awt.*;
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class UseComponents extends JFrame {
+	private static final long serialVersionUID=1L;
+
+	JPanel panel =new JPanel();
+	JButton button1=new JButton("BUTTON");
+	JCheckBox checkbox1=new JCheckBox();
+	JTextArea textarea1=new JTextArea();
+	JComboBox combobox1=new JComboBox();
+
+	public UseComponents(){
+		this.setBounds(50,100,400,250);
+		button1.setText("ボタン");
+		panel.add(button1);
+
+		checkbox1.setText("チェックボックス");
+		panel.add(checkbox1);
+
+		textarea1.setText("テキストエリア\nTextArea");
+		panel.add(textarea1);
+
+		panel.add(textarea1);
+
+
+		this.setContentPane(panel);
+		this.setVisible(true);
+	}
+
+
+
+
+
+
+}

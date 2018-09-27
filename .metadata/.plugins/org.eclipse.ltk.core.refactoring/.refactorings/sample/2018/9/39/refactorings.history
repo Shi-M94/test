@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="2 個の要素を &apos;SwingGUI/src/swinggui&apos; に移動&#x0D;&#x0A;- 元のプロジェクト: &apos;sample&apos;&#x0D;&#x0A;- 宛先要素: &apos;SwingGUI/src/swinggui&apos;&#x0D;&#x0A;- オリジナル要素:&#x0D;&#x0A;     jp.co.internous.action.JCheckBox.java&#x0D;&#x0A;     jp.co.internous.action.JTextArea.java&#x0D;&#x0A;- リファクタリングされた要素の参照を更新" description="コンパイル単位を移動" destination="=SwingGUI/src&lt;swinggui" element1="/src&lt;jp.co.internous.action{JCheckBox.java" element2="/src&lt;jp.co.internous.action{JTextArea.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1537951073643" units="2" version="1.0"/>
+</session>

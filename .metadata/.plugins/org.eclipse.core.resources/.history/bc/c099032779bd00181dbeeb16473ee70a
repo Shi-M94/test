@@ -1,0 +1,22 @@
+package jp.co.internous.action;
+
+import java.util.ArrayList;
+
+public class Main {
+	public static void main(String[] args){
+
+		ArrayList<String> seito =new ArrayList<String>();
+		seito.add("aaa");
+		seito.add("bbb");
+		System.out.println(seito);
+
+
+	}
+
+
+
+
+
+
+
+}

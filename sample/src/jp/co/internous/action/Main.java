@@ -1,24 +1,31 @@
 package jp.co.internous.action;
 
+import java.util.ArrayList;
+
 public class Main {
-
 	public static void main(String[] args){
-		System.out.println("Hello World");
-		System.out.println(hikizan(10,10));
-		System.out.println(kakezan(10,10));
-		System.out.println(warizan(10,10));
+
+		A_member A=new A_member();
+
+		ArrayList <String> seito=new ArrayList<String>();
+		ArrayList <Integer> bangou=new ArrayList<Integer>();
+
+		for(int i=1;i<=20;i++){
+			bangou.add(i);
+		}
+
+		for(int n=0;n<=bangou.size();n++){
+		A.setNumber(bangou.get(n));
+		A.getNumber();
+		}
+
+
+
+
+
+
 	}
-		public static int hikizan(int number1,int number2){
-			return number1-number2;
-		}
 
-		public static int kakezan(int number1,int number2){
-			return number1*number2;
-		}
-
-		public static int warizan(int number1,int number2){
-			return number1/number2;
-		}
 
 
 

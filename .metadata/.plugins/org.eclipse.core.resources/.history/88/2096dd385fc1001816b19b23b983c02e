@@ -1,0 +1,21 @@
+
+public class Phone {
+
+	private String name=null;
+	private String heroname=null;
+
+	public void introduce(){
+		System.out.println("名前は"+"です");
+	}
+
+	public void hello(){
+		System.out.println("こんにちは");
+	}
+
+	public void heroname(){
+		System.out.println("ヒーロー名は"+"です");
+	}
+
+
+
+}

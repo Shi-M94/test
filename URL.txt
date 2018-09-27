@@ -1,0 +1,16 @@
+PHP MyAdminのURL
+
+http://localhost/phpmyadmin/index.php
+
+コンピュータ→htdocsで検索→php_practice内にindex.php
+
+PHP practiceのURL
+http://localhost/php_practice/index.php
+
+
+お問い合わせフォームのURL
+http://localhost/contactform/index.html
+
+
+4each_keijibanのURL
+http://localhost/4each_keijiban/index.php

@@ -1,9 +1,0 @@
-drop database if exists sampledb;
-create database samledb;
-use sampledb;
-
-create table sample_table(
-No. int,
-name varchar(50),
-age int,
-mail varchar(50));
