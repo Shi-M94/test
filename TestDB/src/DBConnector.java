@@ -21,11 +21,12 @@ public class DBConnector {
 	private static String password="mysql";
 
 	public Connection getConnection(){
+		//接続を表すConnectionオブジェクトを初期化
 		Connection con=null;
 		try{
 			//JDBC Driverのロード
 			Class.forName(driverName);
-			//指定されたデータベース(mysql)のURLへの接続を試みる
+			//DriverManagerクラスのgetConnectionメソッドでDBに接続する
 			con=DriverManager.getConnection(url, user, password);
 		}catch(ClassNotFoundException e){
 			e.printStackTrace();
