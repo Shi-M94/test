@@ -1,7 +1,0 @@
-package swinggui;
-
-import javax.swing.JFrame;
-
-public class ButtonAction1 extends JFrame {
-
-}
