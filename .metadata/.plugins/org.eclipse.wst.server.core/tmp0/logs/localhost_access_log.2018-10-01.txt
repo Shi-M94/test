@@ -22,3 +22,8 @@
 0:0:0:0:0:0:0:1 - - [01/Oct/2018:12:01:49 +0900] "GET /HelloServlet/MySQLServlet HTTP/1.1" 200 141
 0:0:0:0:0:0:0:1 - - [01/Oct/2018:12:09:42 +0900] "GET /HelloServlet/ HTTP/1.1" 200 954
 0:0:0:0:0:0:0:1 - - [01/Oct/2018:12:09:43 +0900] "GET /HelloServlet/MySQLServlet HTTP/1.1" 200 141
+127.0.0.1 - - [01/Oct/2018:12:19:13 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:12:19:14 +0900] "GET /HelloServlet/ HTTP/1.1" 200 954
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:12:19:17 +0900] "GET /HelloServlet/MySQLServlet HTTP/1.1" 200 141
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:12:20:56 +0900] "GET /HelloServlet/ HTTP/1.1" 200 954
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:12:20:58 +0900] "GET /HelloServlet/MySQLServlet HTTP/1.1" 200 141
