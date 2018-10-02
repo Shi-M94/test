@@ -67,3 +67,8 @@
 0:0:0:0:0:0:0:1 - - [01/Oct/2018:14:43:15 +0900] "GET /HelloServlet/MySQLServlet HTTP/1.1" 200 316
 0:0:0:0:0:0:0:1 - - [01/Oct/2018:14:43:41 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 200 313
 0:0:0:0:0:0:0:1 - - [01/Oct/2018:14:43:56 +0900] "POST /HelloJSP/total-out.jsp HTTP/1.1" 500 3396
+127.0.0.1 - - [01/Oct/2018:17:47:22 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:17:47:25 +0900] "GET /login/ HTTP/1.1" 200 829
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:17:47:37 +0900] "POST /login/LoginAction.action;jsessionid=765672EF48F0D09C5ABF0A56A588E2F7 HTTP/1.1" 404 1063
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:17:47:46 +0900] "POST /login/LoginAction.action;jsessionid=765672EF48F0D09C5ABF0A56A588E2F7 HTTP/1.1" 200 315
+0:0:0:0:0:0:0:1 - - [01/Oct/2018:17:48:16 +0900] "POST /login/LoginAction.action;jsessionid=765672EF48F0D09C5ABF0A56A588E2F7 HTTP/1.1" 404 1063
