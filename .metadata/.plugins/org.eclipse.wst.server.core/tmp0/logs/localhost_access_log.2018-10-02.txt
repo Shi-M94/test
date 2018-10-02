@@ -48,3 +48,10 @@
 0:0:0:0:0:0:0:1 - - [02/Oct/2018:13:41:09 +0900] "GET /WebProj/ HTTP/1.1" 200 844
 0:0:0:0:0:0:0:1 - - [02/Oct/2018:13:41:13 +0900] "POST /WebProj/InquiryAction.action HTTP/1.1" 200 1063
 0:0:0:0:0:0:0:1 - - [02/Oct/2018:13:41:21 +0900] "POST /WebProj/InquiryCompleteAction.action HTTP/1.1" 200 467
+127.0.0.1 - - [02/Oct/2018:14:03:47 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [02/Oct/2018:14:03:50 +0900] "GET /WebProj/ HTTP/1.1" 200 1913
+0:0:0:0:0:0:0:1 - - [02/Oct/2018:14:03:58 +0900] "GET /WebProj/TestAction.action?username=aaaa&password=aaaaaa HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [02/Oct/2018:14:04:06 +0900] "POST /WebProj/TestAction.action HTTP/1.1" 200 279
+0:0:0:0:0:0:0:1 - - [02/Oct/2018:14:04:12 +0900] "POST /WebProj/InquiryAction.action HTTP/1.1" 200 1063
+0:0:0:0:0:0:0:1 - - [02/Oct/2018:14:04:14 +0900] "GET /WebProj/WelcomeAction HTTP/1.1" 200 980
+0:0:0:0:0:0:0:1 - - [02/Oct/2018:14:04:16 +0900] "GET /WebProj/HelloStrutsAction HTTP/1.1" 200 277
