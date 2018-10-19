@@ -80,7 +80,7 @@
 
 	<div id="main">
 		<div id="top">
-			<p>BuyItem</p>
+			<p>BuyItemConfirm</p>
 		</div>
 		<div>
 			<s:form>

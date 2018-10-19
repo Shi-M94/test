@@ -13,14 +13,14 @@ public class BuyItemDAO {
 	private BuyItemDTO buyItemDTO=new BuyItemDTO();
 
 	public BuyItemDTO getBuyItemInfo(){
-		String sql="select item_name,item_price from item_info_transaction";
+		String sql="select id,item_name,item_price from item_info_transaction";
 
 		try{
 			PreparedStatement ps=con.prepareStatement(sql);
 			ResultSet rs=ps.executeQuery();
 
 			if(rs.next()){
-				buyItemDTO.setId(rs.getInt(rs.getString("id")));
+				buyItemDTO.setId(rs.getInt(rs.getInt("id")));
 				buyItemDTO.setItemName(rs.getString("item_name"));
 				buyItemDTO.setItemPrice(rs.getString("item_price"));
 			}

@@ -2,18 +2,22 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="buyItem_price" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="message"/>
+			<item value="massage"/>
+			<item value="ecsite"/>
 			<item value="buyItem_price"/>
 			<item value="loginDTO"/>
 			<item value="session"/>
 			<item value="prepared"/>
 		</list>
 		<list key="replacehistory">
+			<item value="ecsite02"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

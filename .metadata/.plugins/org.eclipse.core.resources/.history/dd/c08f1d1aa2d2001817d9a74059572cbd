@@ -1,0 +1,5 @@
+package com.internousdev.ecsite02.dto;
+
+public class MyPageDTO {
+
+}
