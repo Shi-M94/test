@@ -3,7 +3,6 @@ INDEX VERSION 1.3+C:\Users\internousdev\Desktop\workspace\workspace-shiraishi\te
 2643740520.index
 4176856516.index
 4101926219.index
-4176856516.index
 3082098993.index
 2797595309.index
 2795787554.index

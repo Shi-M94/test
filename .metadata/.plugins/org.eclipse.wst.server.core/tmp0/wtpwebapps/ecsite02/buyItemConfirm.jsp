@@ -85,6 +85,9 @@
 			<p>BuyItem</p>
 		</div>
 		<div>
+			<s:if test="errorMassage != ''">
+				<s:property value="errorMassage" escape="false"/>
+			</s:if>
 			<s:form>
 				<tr>
 					<td>商品名</td>
