@@ -24,17 +24,19 @@ public class BuyItemConfirmAction extends ActionSupport implements SessionAware{
 				session.get("pay").toString());
 
 
-			buyItemCompleteDAO.decreseItemStock(
+		buyItemCompleteDAO.decreseItemStock(
 					Integer.parseInt(session.get("count").toString()),
 					session.get("id").toString());
-			if(!(buyItemCompleteDTO.getErrorMassage()).equals("")){
-				buyItemCompleteDTO.getErrorMassage();
+
+			/*if(!(buyItemCompleteDTO.getErrorMassage()).equals("")){
 				String result=ERROR;
+				buyItemCompleteDTO.getErrorMassage();
 				return result;
 			}else{
+			*/
 				String result=SUCCESS;
 				return result;
-			}
+			//}
 	}
 
 	public void setSession(Map<String, Object> session) {

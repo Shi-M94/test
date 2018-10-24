@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="Flg" key="selection"/>
+		<item value="back" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="back"/>
 			<item value="flg"/>
 			<item value="message"/>
 			<item value="massage"/>
@@ -15,7 +16,6 @@
 			<item value="buyItem_price"/>
 			<item value="loginDTO"/>
 			<item value="session"/>
-			<item value="prepared"/>
 		</list>
 		<list key="replacehistory">
 			<item value="ecsite02"/>
@@ -26,6 +26,6 @@
 		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
 		<item value="411" key="DIALOG_HEIGHT"/>
 		<item value="247" key="DIALOG_X_ORIGIN"/>
-		<item value="664" key="DIALOG_Y_ORIGIN"/>
+		<item value="449" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
