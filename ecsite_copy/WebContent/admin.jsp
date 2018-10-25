@@ -90,6 +90,7 @@
 				<s:submit value="一覧"/>
 			</s:form>
 		</div>
+
 		<div id="text-center">
 		<p>ユーザー</p>
 			<s:form action="UserCreateAction">

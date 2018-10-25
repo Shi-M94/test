@@ -8,36 +8,35 @@ import java.util.ArrayList;
 
 import com.internousdev.ecsite.dto.ItemInfoDTO;
 import com.internousdev.ecsite.util.DBConnector;
-
 public class ItemListDAO {
-	private DBConnector db=new DBConnector();
-	private Connection con=db.getConnection();
-	private ArrayList<ItemInfoDTO> itemInfoDTO=new ArrayList<ItemInfoDTO>();
 
-	public ArrayList<ItemInfoDTO> getItemInfo() throws SQLException{
+	private DBConnector db = new DBConnector();
+	private Connection con = db.getConnection();
 
-		String sql="SELECT id,item_name,item_price,item_stock,insert_date FROM item_info_transaction";
-		try{
-			PreparedStatement ps=con.prepareStatement(sql);
-			ResultSet rs=ps.executeQuery();
-			while(rs.next()){
-				ItemInfoDTO dto=new ItemInfoDTO();
+	public ArrayList<ItemInfoDTO> getItemList () throws SQLException {
+		ArrayList<ItemInfoDTO> itemInfoDTOList = new ArrayList<ItemInfoDTO>();
+		String sql ="SELECT * FROM item_info_transaction ORDER BY id";
+
+		try {
+			PreparedStatement ps = con.prepareStatement(sql);
+			ResultSet rs = ps.executeQuery();
+
+			while(rs.next()) {
+				ItemInfoDTO dto = new ItemInfoDTO();
 				dto.setId(rs.getString("id"));
-				dto.setItemName(rs.getString("itemName"));
-				dto.setItemPrice(rs.getString("itemPrice"));
-				dto.setItemStock(rs.getString("itemStock"));
-				dto.setInsertDate(rs.getString("insertDate"));
-				itemInfoDTO.add(dto);
+				dto.setItemName(rs.getString("item_name"));
+				dto.setItemPrice(rs.getString("item_price"));
+				dto.setItemStock(rs.getString("item_stock"));
+				dto.setInsert_date(rs.getString("insert_date"));
+				dto.setUpdate_date(rs.getString("update_date"));
+				itemInfoDTOList.add(dto);
 			}
-		}catch(Exception e){
+		} catch(Exception e) {
 			e.printStackTrace();
-		}finally{
+		} finally {
 			con.close();
 		}
-
-		return itemInfoDTO;
-
+		return itemInfoDTOList;
 	}
-
-
 }
+

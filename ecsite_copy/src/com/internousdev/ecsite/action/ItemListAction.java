@@ -10,22 +10,28 @@ import com.internousdev.ecsite.dao.ItemListDAO;
 import com.internousdev.ecsite.dto.ItemInfoDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
-public class ItemListAction extends ActionSupport implements SessionAware{
-	public Map<String,Object> session;
-	private ItemListDAO itemListDAO=new ItemListDAO();
-	private ArrayList<ItemInfoDTO> itemInfoDTO=new ArrayList<ItemInfoDTO>();
+public class ItemListAction extends ActionSupport implements SessionAware {
+	private ArrayList<ItemInfoDTO> itemInfoDTOList = new ArrayList<ItemInfoDTO>();
+	private Map<String, Object> session;
 
-	public String execute() throws SQLException{
-
-		itemInfoDTO=itemListDAO.getItemInfo();
-		return SUCCESS;
+	public String execute() throws SQLException {
+			ItemListDAO itemListDAO = new ItemListDAO();
+			itemInfoDTOList = itemListDAO.getItemList();
+			String result = SUCCESS;
+			return result;
 	}
 
+	public ArrayList<ItemInfoDTO> getItemInfoDTOList() {
+		return itemInfoDTOList;
+	}
+	public void setItemInfoDTOList(ArrayList<ItemInfoDTO> itemInfoDTOList) {
+		this.itemInfoDTOList = itemInfoDTOList;
+	}
+	@Override
 	public void setSession(Map<String, Object> session) {
 		this.session = session;
 	}
-
-
-
-
+	public Map<String, Object> getSession() {
+		return session;
+	}
 }

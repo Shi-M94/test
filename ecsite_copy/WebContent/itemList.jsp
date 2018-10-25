@@ -73,30 +73,40 @@
 	</div>
 
 	<div id="main">
-		<div id="top">
-			<p>ItemList</p>
-		</div>
-		<h3>ご購入情報は以下になります。</h3>
-				<table border="1">
-				<tr>
-					<th>ID</th>
-					<th>商品名</th>
-					<th>価格</th>
-					<th>在庫</th>
-					<th>登録日</th>
-				</tr>
-				<s:iterator value="itemInfoDTO">
-					<tr>
-						<td><s:property value="id"/></td>
-						<td><s:property value="itemName"/></td>
-						<td><s:property value="itemPrice"/><span>円</span></td>
-						<td><s:property value="itemStock"/><span>個</span></td>
-						<td><s:property value="insertDate"/></td>
-					</tr>
-				</s:iterator>
-				</table>
+			<div id="top">
+				<p>ItemList</p>
+			</div>
+			<div>
+					<h3>商品情報は以下になります。</h3>
+					<table border="1">
+						<tr>
+							<th>id</th>
+							<th>商品名</th>
+							<th>値段</th>
+							<th>在庫</th>
+							<th>登録日</th>
+							<th>更新日</th>
+						</tr>
+						<s:iterator value="itemInfoDTOList">
+							<tr>
+								<td><s:property value="id" /></td>
+								<td><s:property value="itemName" /></td>
+								<td><s:property value="itemPrice" /><span>円</span></td>
+								<td><s:property value="itemStock" /><span>個</span></td>
+								<td><s:property value="insert_date" /></td>
+								<td><s:property value="update_date" /></td>
+							</tr>
+						</s:iterator>
+					</table><br>
+				<s:form action="ItemListDeleteConfirmAction">
+					<s:submit value="削除"/>
+				</s:form>
 
-	</div>
+				<div id="text-right">
+					<p>管理者TOP画面へ戻る場合は<a href='<s:url action="AdminAction" />'>こちら</a></p>
+				</div>
+			</div>
+		</div>
 
 	<div id="footer">
 		<div id="pr"></div>
