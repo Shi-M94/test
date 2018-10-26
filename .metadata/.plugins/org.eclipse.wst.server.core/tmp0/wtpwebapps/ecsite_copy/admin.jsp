@@ -101,7 +101,9 @@
 				<s:submit value="一覧"/>
 			</s:form>
 		</div>
-
+		<div id="text-right">
+					<p>Home画面へ戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
+				</div>
 
 	</div>
 

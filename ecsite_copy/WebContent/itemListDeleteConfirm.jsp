@@ -80,7 +80,7 @@
 			<p>ItemListDeleteConfirm</p>
 		</div>
 		<h3>すべての商品を削除します。よろしいですか？</h3>
-		<s:form action="">
+		<s:form action="ItemListDeleteCompleteAction">
 			<s:submit value="ＯＫ"/>
 		</s:form><br>
 		<s:form action="ItemListAction">

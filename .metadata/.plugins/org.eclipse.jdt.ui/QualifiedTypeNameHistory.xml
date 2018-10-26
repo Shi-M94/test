@@ -22,4 +22,5 @@
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.internousdev.ecsite.dao.ItemListDeleteCompleteDAO"/>
 </qualifiedTypeNameHistroy>

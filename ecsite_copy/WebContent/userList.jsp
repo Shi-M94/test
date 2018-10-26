@@ -74,7 +74,7 @@
 
 	<div id="main">
 			<div id="top">
-				<p>MyPage</p>
+				<p>UserList</p>
 			</div>
 			<div>
 					<h3>ユーザー情報は以下になります。</h3>
@@ -100,7 +100,11 @@
 					</table>
 				<s:if test="message != null">
 					<h3><s:property value="message"/></h3>
-				</s:if>
+				</s:if><br>
+				<s:form action="UserListDeleteConfirmAction">
+					<s:submit value="削除"/>
+				</s:form>
+
 				<div id="text-right">
 					<p>管理者TOP画面へ戻る場合は<a href='admin.jsp'>こちら</a></p>
 				</div>

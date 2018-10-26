@@ -79,14 +79,18 @@
 		<div id="top">
 			<p>ItemListDeleteComplete</p>
 		</div>
-		<h3>すべての商品を削除します。よろしいですか？</h3>
-		<s:form action="">
-			<s:submit value="ＯＫ"/>
-		</s:form><br>
-		<s:form action="ItemListAction">
-			<s:submit value="キャンセル"/>
-		</s:form>
-
+		<s:if test="itemInfoDTOList == null">
+			<h3>商品情報はありません。</h3>
+		</s:if>
+		<s:elseif test="message == null">
+		<h3>すべての商品を削除しました。</h3>
+		</s:elseif>
+		<s:if test="message != null">
+			<h3><s:property value="message" /></h3>
+		</s:if>
+		<div id="text-right">
+					<p>管理者TOP画面へ戻る場合は<a href='<s:url action="AdminAction" />'>こちら</a></p>
+		</div>
 	</div>
 
 	<div id="footer">
