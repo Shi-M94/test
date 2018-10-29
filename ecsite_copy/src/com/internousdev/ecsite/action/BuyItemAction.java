@@ -42,7 +42,4 @@ public class BuyItemAction extends ActionSupport implements SessionAware{
 	}
 
 
-
-
-
 }

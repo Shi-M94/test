@@ -14,6 +14,7 @@
 
 <title>Admin画面</title>
 
+
 <style type="text/css">
 
 	body {
@@ -38,6 +39,14 @@
 	margin:30px auto;
 	border:1px solid #333;
 	text-align: center;
+	}
+
+	#top p{
+	display:inline-block;
+	}
+
+	#top img{
+	vertical-align:middle;
 	}
 
 	#header {
@@ -67,7 +76,10 @@
 	margin: 0px 10px ;
 	}
 
+
 </style>
+
+
 </head>
 <body>
 
@@ -77,6 +89,7 @@
 
 	<div id="main">
 		<div id="top">
+			<img src = "リスのアイコンですたい。.jpeg"/>
 			<p>Admin</p>
 		</div>
 
@@ -102,8 +115,13 @@
 			</s:form>
 		</div>
 		<div id="text-right">
+
 					<p>Home画面へ戻る場合は<a href='<s:url action="GoHomeAction" />'>こちら</a></p>
 				</div>
+		<div class="wrapper">
+			<div class="square" id="elem"></div>
+		</div>
+
 
 	</div>
 

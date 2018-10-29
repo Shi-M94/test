@@ -16,11 +16,11 @@
 <fullyQualifiedTypeName name="com.internousdev.templete.util.DateUtil"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.util.DBConnector"/>
-<fullyQualifiedTypeName name="java.sql.SQLException"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite02.util.DateUtil"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.util.DateUtil"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="com.internousdev.ecsite.dao.ItemListDeleteCompleteDAO"/>
+<fullyQualifiedTypeName name="java.sql.Connection"/>
+<fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+<fullyQualifiedTypeName name="java.sql.SQLException"/>
 </qualifiedTypeNameHistroy>

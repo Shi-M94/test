@@ -37,6 +37,7 @@
 	width:780px;
 	margin:30px auto;
 	border:1px solid #333;
+	text-align: center;
 	}
 
 	#header {
@@ -59,8 +60,11 @@
 	}
 
 	#text-center {
+	border:1px solid gray;
 	display: inline-block;
 	text-align: center;
+	padding: 0px 15px 5px 15px;
+	margin: 0px 10px ;
 	}
 
 </style>
@@ -70,6 +74,20 @@
 		$('form').attr('action',url);
 		$('form').submit();
 	}
+
+	$(function(){
+		  $("#top").hover(
+			function(){
+			  $(this).css("font-size","+=5");
+		  },
+			function(){
+			  $(this).css("font-size","-=5");
+		  });
+		});
+
+	confirm("Hey!!");
+
+
 </script>
 </head>
 <body>
