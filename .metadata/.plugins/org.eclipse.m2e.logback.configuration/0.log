@@ -305,3 +305,10 @@ java.net.UnknownHostException: services.gradle.org
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515) [org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar:na]
+2018-10-29 15:44:35,389 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @20577252ms
+2018-10-29 15:44:35,613 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2018-10-29 15:44:35,680 [main] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5050211f{/wse,null,AVAILABLE}
+2018-10-29 15:44:35,742 [main] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@11fe059f{HTTP/1.1}{0.0.0.0:51902}
+2018-10-29 15:44:35,743 [main] INFO  org.eclipse.jetty.server.Server - Started @20577618ms
+2018-10-29 17:55:32,092 [Framework stop] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@11fe059f{HTTP/1.1}{0.0.0.0:0}
+2018-10-29 17:55:32,181 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@5050211f{/wse,null,UNAVAILABLE}
