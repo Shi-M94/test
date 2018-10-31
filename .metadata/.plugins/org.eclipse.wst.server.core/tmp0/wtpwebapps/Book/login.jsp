@@ -5,7 +5,16 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Script-Type" content="text/javascript" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="./CSS/style.css">
+	<script type="text/javascript">
+	$(function(){
+	    $("h1").mouseover(function(){
+	    	$(this).css("color","red");
+	    });
+	});
+	</script>
 <title>Login</title>
 </head>
 <body>
@@ -13,6 +22,7 @@
 
 	<div id="contents">
 		<h1>Login画面</h1>
+
 		<s:form id="form" action="LoginAction">
 		<table id="logintable">
 			<tr>
