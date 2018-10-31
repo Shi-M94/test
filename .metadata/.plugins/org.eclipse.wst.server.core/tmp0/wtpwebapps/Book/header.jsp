@@ -14,11 +14,22 @@
 		<div id="header-title">BookStore</div>
 		<div id="header-menu">
 		<ul>
+			<li><s:textfield name="keywords" placeholder="検索ワード"/></li>
+			<li><select name="age">
+     	<option value="a">選択してください</option>
+        <script>
+        for(var i=18;i<=65;i++){
+            document.write("<option value='z'>");
+            document.write(i);
+            document.write("</option>");
+        }
+        </script>
+    </select></li>
+			<s:form action="MypageAction">
+			<li><s:submit value="マイページ" name="button" class="botan"/></li>
+			</s:form>
 			<s:form action="LoginAction">
 			<li><s:submit value="ログイン" name="button" class="botan" /></li>
-			</s:form>
-			<s:form action="BookAction">
-			<li><s:submit value="商品一覧" name="button" class="botan"/></li>
 			</s:form>
 			<s:form action="CartAction">
 			<li><s:submit value="カート" name="button" class="botan"/></li>

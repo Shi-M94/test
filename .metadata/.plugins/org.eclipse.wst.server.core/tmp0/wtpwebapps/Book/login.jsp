@@ -14,21 +14,27 @@
 	<div id="contents">
 		<h1>Login画面</h1>
 		<s:form id="form" action="LoginAction">
-		<table>
+		<table id="logintable">
 			<tr>
 				<th>ログインID:</th><td><s:textfield name="loginId" class="txt"/></td>
 			</tr>
 			<tr>
 				<th>パスワード:</th><td><s:textfield name="password" class="txt"/></td>
 			</tr>
-
 		</table>
-
+		<div id="actionbutton">
+			<s:form action="CreateUserAction">
+			<s:submit value="新規ユーザー作成" name="button" class="botan"/>
+			</s:form>
+			<s:form action="RePasswordAction">
+			<s:submit value="パスワード再設定" name="button" class="botan"/>
+			</s:form>
+		</div>
 
 
 		</s:form>
 	</div>
 
-	<jsp:include page="footer.jsp"/>
+	<s:include value="footer.jsp"/>
 </body>
 </html>
