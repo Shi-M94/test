@@ -2,20 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="checkbox" key="selection"/>
+		<item value="" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="checkbox"/>
-			<item value="mCategoryDtoList"/>
-			<item value="footer"/>
-			<item value="text-right"/>
-			<item value="resultSet"/>
-			<item value="mypageaction"/>
-			<item value="back"/>
-			<item value="flg"/>
+			<item value="box"/>
+			<item value="header-menu"/>
+			<item value="headermenu"/>
+			<item value="#form"/>
+			<item value="form"/>
+			<item value="loginerror"/>
+			<item value="property"/>
+			<item value="propertyname"/>
 		</list>
 		<list key="replacehistory">
 			<item value="rs"/>
@@ -26,7 +26,7 @@
 		<item value="377" key="DIALOG_WIDTH"/>
 		<item value="1|メイリオ|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|メイリオ" key="DIALOG_FONT_NAME"/>
 		<item value="411" key="DIALOG_HEIGHT"/>
-		<item value="747" key="DIALOG_X_ORIGIN"/>
+		<item value="714" key="DIALOG_X_ORIGIN"/>
 		<item value="449" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
