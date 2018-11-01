@@ -26,10 +26,12 @@
 		<s:form id="form" action="LoginAction">
 		<table id="logintable">
 			<tr>
-				<th>ログインID:</th><td><s:textfield name="loginId" class="txt"/></td>
+				<th>ログインID:</th>
+				<td><s:textfield name="loginId" class="txt"/></td>
 			</tr>
 			<tr>
-				<th>パスワード:</th><td><s:textfield name="password" class="txt"/></td>
+				<th>パスワード:</th>
+				<td><s:textfield name="password" class="txt"/></td>
 			</tr>
 		</table>
 		<div id="actionbutton">
